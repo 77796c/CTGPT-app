@@ -1,0 +1,28 @@
+{
+  "name": "magic-super-8-ball-app",
+  "version": "0.1.0",
+  "description": "A Magic Super 8 Ball ChatGPT App built with the OpenAI Apps SDK.",
+  "type": "module",
+  "scripts": {
+    "dev": "chatgpt-apps dev",
+    "build": "chatgpt-apps build",
+    "lint": "biome check ."
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "apps-sdk",
+    "magic-8-ball"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.47",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@openai/chatgpt-apps": "^0.1.0",
+    "zod": "^3.22.4"
+  }
+}
